@@ -1,0 +1,282 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-fixed .nav-wrapper .brand-logo img {
+  height: 2em;
+  padding: 0.3em;
+}
+
+h1, h2, h3{
+  color: #176ABD;
+  text-align: center;
+  font-weight: 600;
+}
+
+h4{
+  color: #176ABD;
+  text-align: center;
+}
+
+valign-wrapper{
+  width: 100%;
+}
+
+.meConhece{
+  margin-bottom: 0;
+}
+
+.promo{
+  margin-top: 2%;
+}
+
+.progress .indeterminate{
+  background-color: #176ABD;
+}
+
+
+#sobre .responsive-img {
+  height: auto;
+  float: left;
+  margin-right: 4%;
+  margin-bottom: 4%;
+  margin-top: 8%;
+  position: relative;
+}
+
+#sobre span{
+  color: #176ABD;
+  float: top;
+  text-align: justify;
+}
+
+p{
+  text-indent: 2em;
+}
+
+.chip{
+  margin: 0.6%;
+}
+
+.row i{
+  font-size: 8em;
+}
+
+.row p{
+  font-size: 1.5em;
+}
+
+form:focus{
+  color: #176ABD;
+}
+
+.btn{
+  position: relative;
+  background-color: #1976D2;
+}
+
+.btn:hover{
+  background-color: #176ABD;
+}
+
+#iconeBtnEnviar{
+  font-size: 2em;
+  padding-top: -2em;
+}
+
+.input-field input[type=text]:focus{
+  border-bottom: 1px solid #176ABD;
+  box-shadow: 0 1px 0 0 #176ABD;
+}
+
+.input-field input[type=email]:focus{
+  border-bottom: 1px solid #176ABD;
+  box-shadow: 0 1px 0 0 #176ABD;
+}
+
+.input-field input[type=text]:focus + label {
+  color: #176ABD;
+}
+
+.input-field input[type=email]:focus + label {
+  color: #176ABD;
+}
+
+.input-field .prefix.active {
+  color: #176ABD;
+}
+
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #176ABD;
+  box-shadow: 0 1px 0 0 #176ABD;
+}
+
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: #176ABD;
+}
+
+@media only screen and (min-width: 860px){
+
+  h1{
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  section .flow-text{
+    font-size: 80%;
+  }
+
+  .social{
+    margin-bottom: 0;
+  }
+
+  .promo i, p{
+    text-indent: 0;
+    margin-top: 5%;
+    text-align: center;
+    color: #176ABD;
+  }
+
+  .texto p{
+    text-align: justify;
+    text-indent: 1em;
+  }
+}
+
+
+
+@media only screen and (max-device-width: 860px) {
+  h1{
+    font-size: 4em;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  section .flow-text {
+    font-size: 75%;
+    text-align: justify;
+  }
+
+  .social{
+    margin-bottom: 0;
+  }
+
+  .promo p, i{
+    font-size: 1.5em;
+    text-indent: 0;
+    margin-top: 5%;
+    text-align: center;
+    color: #176ABD;
+  }
+
+  .row i{
+    font-size: 7em;
+  }
+
+
+    .midias{
+      display: none  !important;
+    }
+}
+
+@media only screen and (max-device-width: 760px) {
+  h1{
+    font-size: 4em;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  h2{
+    font-size: 2.8em;
+  }
+
+  section .flow-text {
+    font-size: 65%;
+    text-align: justify;
+  }
+
+  .social{
+    margin-bottom: 0;
+  }
+
+  .promo p, i{
+    font-size: 1.3em;
+    text-indent: 0;
+    margin-top: 5%;
+    text-align: center;
+    color: #176ABD;
+  }
+
+  .row i{
+    font-size: 5em;
+  }
+}
+
+@media only screen and (max-device-width: 702px){
+  h1{
+    font-size: 3em;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  h2{
+    font-size: 2em;
+  }
+  h3{
+    font-size: 1.8em;
+  }
+  section .flow-text {
+    font-size: 65%;
+    text-align: justify;
+  }
+  .social{
+    margin-bottom: 0;
+  }
+  .promo p, i{
+    font-size: 1.2em;
+    text-indent: 0;
+    margin-top: 5%;
+    text-align: center;
+    color: #176ABD;
+  }
+  .row i{
+    font-size: 4.5em;
+  }
+}
+
+@media only screen and (max-device-width: 623px) {
+  h1{
+    font-size: 2em;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  h2{
+    font-size: 1.8em;
+  }
+  h3{
+    font-size: 1.2em;
+  }
+  h4{
+    font-size: 1.5em;
+  }
+  section .flow-text {
+    font-size: 50%;
+    text-align: justify;
+  }
+  p{
+    line-height: 1;
+  }
+  .social{
+    margin-bottom: 0;
+  }
+  .promo p, i{
+    font-size: 1em;
+    text-indent: 0;
+    margin-top: 5%;
+    text-align: center;
+    color: #176ABD;
+  }
+
+  .row i{
+    font-size: 5em;
+  }
+}
