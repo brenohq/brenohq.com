@@ -4,7 +4,12 @@ html {
 
 .navbar-fixed .nav-wrapper .brand-logo img {
   height: 2em;
-  padding: 0.3em;
+  padding: 0.4em;
+}
+
+nav .button-collapse i{
+  padding-left: 0.5em;
+  color: #ffffff;
 }
 
 h1, h2, h3{
@@ -36,10 +41,6 @@ valign-wrapper{
 
 
 #sobre .responsive-img {
-<<<<<<< HEAD
-=======
-  width: 30%;
->>>>>>> 8b9640ad7e1319edad2a96d5f871a905e269af8d
   height: auto;
   float: left;
   margin-right: 4%;
@@ -176,14 +177,11 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
   .row i{
     font-size: 7em;
   }
-<<<<<<< HEAD
 
 
-    .midias{
-      display: none  !important;
-    }
-=======
->>>>>>> 8b9640ad7e1319edad2a96d5f871a905e269af8d
+  .midias{
+    display: none  !important;
+  }
 }
 
 @media only screen and (max-device-width: 760px) {
@@ -214,11 +212,6 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
     color: #176ABD;
   }
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 8b9640ad7e1319edad2a96d5f871a905e269af8d
   .row i{
     font-size: 5em;
   }
@@ -275,12 +268,10 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
     text-align: justify;
   }
   p{
-<<<<<<< HEAD
     line-height: 1;
-=======
-      line-height: 1;
->>>>>>> 8b9640ad7e1319edad2a96d5f871a905e269af8d
+    line-height: 1;
   }
+
   .social{
     margin-bottom: 0;
   }
