@@ -120,6 +120,10 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
   color: #176ABD;
 }
 
+.side-nav a{
+  display: inline-block;
+}
+
 @media only screen and (min-width: 860px){
 
   h1{

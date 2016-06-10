@@ -37,7 +37,7 @@
       <div class="nav-wrapper blue darken-2">
         <a href="#sectionHome" class="brand-logo"><img src="img/logoTranspBranca685x150.png"/></a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-        
+
         <ul class="right hide-on-med-and-down" id="navbar">
           <li data-menuanchor="sectionHome"><a  href="#sectionHome" data-loc="home"><i class="material-icons left">airplay</i>Home</a></li>
           <li data-menuanchor="sectionSobre"><a href="#sectionSobre" data-loc="sobre"><i class="material-icons left">person_pin</i>Sobre</a></li>
@@ -45,10 +45,10 @@
           <li data-menuanchor="sectionContato"><a href="#sectionContato" data-loc="contato"><i class="material-icons left">email</i>Contato</a></li>
         </ul>
         <ul class="side-nav" id="mobile-demo">
-          <li data-menuanchor="sectionHome"><a  href="#sectionHome" data-loc="home">Home</a></li>
-          <li data-menuanchor="sectionSobre"><a href="#sectionSobre" data-loc="sobre">Sobre</a></li>
-          <li data-menuanchor="sectionPortfolio"><a href="#sectionPortfolio" data-loc="portfolio">Portfólio</a></li>
-          <li data-menuanchor="sectionContato"><a href="#sectionContato" data-loc="contato">Contato</a></li>
+          <li data-menuanchor="sectionHome"><a  href="#sectionHome" data-loc="home"><i class="material-icons left icon-mobile">airplay</i>Home</a></li>
+          <li data-menuanchor="sectionSobre"><a href="#sectionSobre" data-loc="sobre"><i class="material-icons left icon-mobile">person_pin</i>Sobre</a></li>
+          <li data-menuanchor="sectionPortfolio"><a href="#sectionPortfolio" data-loc="portfolio"><i class="material-icons left icon-mobile">done_all</i>Portfólio</a></li>
+          <li data-menuanchor="sectionContato"><a href="#sectionContato" data-loc="contato"><i class="material-icons left icon-mobile">email</i>Contato</a></li>
         </ul>
 
         <script type="text/javascript">
@@ -176,8 +176,13 @@
               <label for="text">Mensagem</label>
             </div>
             <div class="col s12 center">
-              <button class="btn waves-effect waves-light" type="submit" name="action">Enviar!
+              <button class="btn waves-effect waves-light" type="submit" name="action" onclick="mensagemEnviada()">Enviar!
                 <i class="material-icons right" id="iconeBtnEnviar">send</i>
+                <script type="text/javascript">
+                function mensagemEnviada() {
+                  confirm("Mensagem enviada :)");
+                }
+                </script>
               </button>
             </div>
           </form>
