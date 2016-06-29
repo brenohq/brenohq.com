@@ -152,8 +152,6 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
   }
 }
 
-
-
 @media only screen and (max-device-width: 860px) {
   h1{
     font-size: 4em;
