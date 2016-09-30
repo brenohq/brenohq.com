@@ -1,16 +1,2 @@
 User-agent: *
-
-User-agent: AhrefsBot
-Disallow: /
-
-User-Agent: bingbot
-Disallow: /
-
-User-agent: Slurp
-Disallow: /
-
-User-agent: grapeshot
-Disallow: /
-
-User-agent: Yandex
-Disallow: /
+Allow: /
