@@ -67,10 +67,10 @@
 
         <ul class="side-nav" id="mobile-demo">
           <li><a href="http://brenohq.github.io" target="_blank"><i class="material-icons left icon-mobile">announcement</i>Blog</a></li>
-          <li data-menuanchor="sectionHome"><a href="#sectionHome" data-loc="home"><i class="material-icons left icon-mobile">airplay</i>Home</a></li>
-          <li data-menuanchor="sectionSobre"><a href="#sectionSobre" data-loc="sobre"><i class="material-icons left icon-mobile">person_pin</i>Sobre</a></li>
-          <li data-menuanchor="sectionPortfolio"><a href="#sectionPortfolio" data-loc="portfolio"><i class="material-icons left icon-mobile">done_all</i>Portfólio</a></li>
-          <li data-menuanchor="sectionContato"><a href="#sectionContato" data-loc="contato"><i class="material-icons left icon-mobile">email</i>Contato</a></li>
+          <li data-menuanchor="sectionHome"><a href="#sectionHome" data-loc="home"><i class="azul material-icons left icon-mobile">airplay</i>Home</a></li>
+          <li data-menuanchor="sectionSobre"><a href="#sectionSobre" data-loc="sobre"><i class="azul material-icons left icon-mobile">person_pin</i>Sobre</a></li>
+          <li data-menuanchor="sectionPortfolio"><a href="#sectionPortfolio" data-loc="portfolio"><i class="azul material-icons left icon-mobile">done_all</i>Portfólio</a></li>
+          <li data-menuanchor="sectionContato"><a href="#sectionContato" data-loc="contato"><i class="azul material-icons left icon-mobile">email</i>Contato</a></li>
         </ul>
 
         <script type="text/javascript">
@@ -86,8 +86,9 @@
   </div>
 
   <div id="fullpage" class="container">
+
     <div class="section">
-      <section id="home">
+      <section id="home" class="vertical">
         <div class="row valign-wrapper">
           <div class="col s12 m12">
             <br/><br/>
@@ -106,24 +107,25 @@
     </div>
 
     <div class="section content">
-      <section id="sobre">
+      <section id="sobre" class="vertical">
         <h1 class="sobreMim">Você me conhece?</h1>
         <div class="row valign-wrapper social">
-          <div class="col s4 m4 left">
+          <div class="col s4 m4">
             <img class="z-depth-1 responsive-img circle hoverable fotoPerfil" src="img/fotoBreno.jpg" id="fotoBreno">
           </div>
 
-          <div class="col s10 m10 right texto">
-            <p>
+          <div class="col s12 m12 texto">
+            <p class="justify text-indent">
               <span class="flow-text">Meu nome é Breno Henrique de Lima Freitas, venho de Itaguara, Minas Gerais. Atualmente moro em Lavras, onde curso Sistemas de Informação pela UFLA. Atualmente trabalho como desenvolvedor front-end na <a href="http://www.compjunior.com.br/new2015/">CompJunior</a>!</span>
             </p>
-            <p>
+            <p class="justify text-indent">
               <span class="flow-text">Eu adoro transformar grandes problemas em interfaces simples, modernas e intuitivas. Tenho trabalhado com diversas tecnologias para fazer do seu site um lugar atraente e interessante, tudo planejado para o seu público alvo.</span>
             </p>
-            <p>
+            <p class="justify text-indent">
               <span class="flow-text">Fique a vontade, fale comigo em qualquer lugar! </span>
             </p>
           </div>
+
         </div>
 
         <div class="row center valign-wrapper meConhece">
@@ -156,60 +158,144 @@
     </div>
 
     <div class="section">
-      <section id="portfolio">
-        <h1>Eu faço coisas incríveis!</h1>
-        <h4>As mais recentes tecnologias, a melhor experiência.</h4>
-        <div class="row center valign-wrapper">
-          <div class="col s12 m12 promo">
-            <div class="col s4 m4">
-              <i class="material-icons icon-blue">store</i>
-              <p>
-                Seu negócio na internet </br> pra todo mundo ver!
-              </p>
-            </div>
-            <div class="col s4 m4">
-              <i class="material-icons icon-blue">assignment_ind</i>
-              <p>
-                Foco no usuário! </br> Sites responsivos, modernos e seguros.
-              </p>
-            </div>
-            <div class="col s4 m4">
-              <i class="material-icons icon-blue">payment</i>
-              <p>
-                Você escolhe. </br> PayPal, depósito ou bitcoin?
-              </p>
-            </div>
+      <div class="portfolio vertical">
+
+        <div class="row">
+          <div class="col s12 m12 l12 portfolio-holder">
+            <h2>Eu faço coisas incríveis!</h2>
+            <h4>Visite os últimos projetos que trabalhei!</h4>
           </div>
         </div>
+
+        <div class="row hide-on-small-only">
+
+          <div class="col m4 l4">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator responsive-img" src="img/portfolio/juridicajr.png">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4 fontsize18">Jurídica Júnior<i class=" f100 material-icons right">more_vert</i></span>
+                <p><a href="http://www.juridicajunior.ufla.br/" target="_blank">www.juridicajunior.com.br</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Website<i class="material-icons right">close</i></span>
+                <p class="text-indent justify pMenor">Junto com a minha equipe na <a target="_blank" href="http://compjunior.com.br/">CompJunior ♥</a> tivemos prazer em trabalhar nesse projeto, desenvolvido para uma das várias empresas júnior aqui da
+                  <a href="http://www.ufla.br/" target="_blank"></a>.</p>
+                  <p  class="text-indent justify pMenor">Acesse: <a href="http://www.juridicajunior.ufla.br/" target="_blank">www.juridicajunior.com.br</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col m4 l4">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="img/portfolio/IIIseti.png">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4 fontsize18">III SETI<i class="f100 material-icons right">more_vert</i></span>
+                <p><a href="http://jalbum.net/en/browse/user/album/1769667" target="_blank">Veja as telas!</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Web App<i class="material-icons right">close</i></span>
+                <p class="text-indent justify pMenor">
+                  Como desenvolvedor na <a target="_blank" href="http://compjunior.com.br/">CompJunior ♥</a>, tive a brilhante oportunidade trabalhar nesse webapp para a 3ª edição do <a target="_blank" href="https://www.facebook.com/setiufla">SETI</a>.
+                  O sistema foi usado por mais de 500 pessoas, envolvendo alunos, professores e toda a comunidade, em uma semana de palestras e workshops.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col m4 l4">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="img/portfolio/curriculum.png">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4 fontsize18">Meu Currículo<i class="f100 material-icons right">more_vert</i></span>
+                <p><a target="_blank" href="https://brenosc2.github.io/">Acesse!</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Website<i class="material-icons right">close</i></span>
+                <p class="text-indent justify pMenor">Desenvolvi meu currículo online, para fins acadêmicos e profissionais.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row hide-on-med-and-up">
+
+          <div class="col s6">
+            <div class="card horizontal small">
+              <div class="card-image">
+                <img src="img/portfolio/juridicajr.png">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p class="pLittle justify">
+                    Junto com a minha equipe na <a target="_blank" href="http://compjunior.com.br/">CompJunior ♥</a> tivemos prazer em trabalhar nesse projeto, desenvolvido para uma das várias empresas júnior aqui da
+                    <a href="http://www.ufla.br/" target="_blank">UFLA</a>.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a class="psm azul" target="_blank" href="http://www.juridicajunior.ufla.br/">juridicajunior.com.br</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s6">
+            <div class="card horizontal small">
+              <div class="card-image">
+                <img src="img/portfolio/IIIseti.png">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p class="pLittle justify">
+                    Como desenvolvedor na <a target="_blank" href="http://compjunior.com.br/">CompJunior ♥</a>, tive a brilhante oportunidade trabalhar nesse webapp para a 3ª edição do <a target="_blank" href="https://www.facebook.com/setiufla">SETI</a>.
+                    O sistema foi usado por mais de 500 pessoas, em uma semana de palestras e workshops.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a target="_blank" href="http://jalbum.net/en/browse/user/album/1769667" class="psm azul">veja as telas!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
       </section>
     </div>
 
     <div class="section">
-      <section id="contato">
+      <section id="contato" class="vertical">
         <h1>Eu amo a comunicação!</h1>
         <h4>Fale comigo ;D</h4>
         <br/>
         <div class="row">
           <form class="col s12 m12 form" id="contactForm" type="submit" method="postf" name="sentMessage" novalidate>
             <div class="input-field col s6">
-              <i class="material-icons prefix">account_circle</i>
+              <i class="azul material-icons prefix">account_circle</i>
               <input id="name" name="name" type="text" class="validate" required>
-              <label for="name">Nome</label>
+              <label class="azul" for="name">Nome</label>
             </div>
 
             <div class="input-field col s6">
-              <i class="material-icons prefix">email</i>
+              <i class="azul material-icons prefix">email</i>
               <input id="email" type="email" name="email" class="validate">
-              <label for="email grey">E-mail</label>
+              <label class="azul" for="email grey">E-mail</label>
             </div>
 
             <div class="input-field col s12">
-              <i class="material-icons prefix">mode_edit</i>
+              <i class="azul material-icons prefix">mode_edit</i>
               <textarea name="text" id="message" class="materialize-textarea"></textarea>
-              <label for="text">Mensagem</label>
+              <label class="azul" for="text">Mensagem</label>
             </div>
             <div class="col s12 center">
-              <button class="btn waves-effect waves-light" type="submit" name="action" onclick="">Enviar!
+              <button class="btn waves-effect waves-light btnEnviar" type="submit" name="action" onclick="">Enviar!
               <i class="material-icons right" id="iconeBtnEnviar">send</i>
             </button>
             </div>

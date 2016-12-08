@@ -18,10 +18,16 @@ nav .button-collapse i {
   color: #ffffff;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: #176ABD;
   text-align: center;
   font-weight: 600;
+}
+
+h2 {
+  margin-top: 0;
 }
 
 h4 {
@@ -36,10 +42,6 @@ valign-wrapper {
 .meConhece {
   margin-bottom: 0;
   padding-left: 15%;
-}
-
-.promo {
-  margin-top: 2%;
 }
 
 .progress .indeterminate {
@@ -61,20 +63,8 @@ valign-wrapper {
   text-align: justify;
 }
 
-p {
-  text-indent: 2em;
-}
-
 .chip {
   margin: 0.6%;
-}
-
-.row i {
-  font-size: 8em;
-}
-
-.row p {
-  font-size: 1.5em;
 }
 
 form:focus {
@@ -128,7 +118,109 @@ textarea.materialize-textarea:focus:not([readonly])+label {
 
 .side-nav a {
   display: inline-block;
+  color: #176ABD;
 }
+
+.text-indent {
+  text-indent: 2em;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.pLittle {
+  font-size: 10px;
+}
+
+.fontsize18 {
+  font-size: 18px !important;
+}
+
+.psm {
+  font-size: 10px;
+}
+
+.f100 {
+  font-size: 100%;
+}
+
+.azul {
+  color: #176ABD !important;
+}
+
+.pMenor {
+  font-size: 13px;
+}
+
+.pMedio {
+  font-size: 16px;
+}
+
+.pGrande {
+  font-size: 18px;
+}
+
+.btnEnviar {
+  margin: 60px;
+}
+
+.vertical {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-60%);
+  -ms-transform: translateY(-60%);
+  transform: translateY(-60%);
+}
+
+
+/*MEDIA QUERIES NOVAS*/
+
+/*Smartphones (modo retrato e paisagem) */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .texto p {
+    font-size: 1.5em;
+  }
+}
+
+/*Ipads (modo retrato e paisagem) */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .texto p {
+    font-size: 1.5em;
+  }
+  .midias {
+    width: 100% !important;
+    margin: 0;
+  }
+}
+
+/* Desktops and laptops */
+
+@media only screen and (min-width: 1224px) {
+  .texto p {
+    font-size: 1.3em;
+  }
+  .midias {
+    width: 100% !important;
+    margin: 0;
+  }
+  .texto {
+    padding: 40px !important;
+  }
+  #contato {
+    margin: 40px !important;
+  }
+}
+
+/* Large screens */
+
+@media only screen and (min-width: 1824px) {
+  /* Styles */
+}
+
+/*MEDIA QUERIES ANTIGAS */
 
 @media only screen and (min-width: 860px) {
   h1 {
@@ -140,12 +232,6 @@ textarea.materialize-textarea:focus:not([readonly])+label {
   }
   .social {
     margin-bottom: 0;
-  }
-  .promo i, p {
-    text-indent: 0;
-    margin-top: 5%;
-    text-align: center;
-    color: #176ABD;
   }
   .texto p {
     text-align: justify;
@@ -166,16 +252,6 @@ textarea.materialize-textarea:focus:not([readonly])+label {
   .social {
     margin-bottom: 0;
   }
-  .promo p, i {
-    font-size: 1.5em;
-    text-indent: 0;
-    margin-top: 5%;
-    text-align: center;
-    color: #176ABD;
-  }
-  .row i {
-    font-size: 7em;
-  }
   .midias {
     display: none !important;
   }
@@ -187,25 +263,12 @@ textarea.materialize-textarea:focus:not([readonly])+label {
     margin-bottom: 0;
     margin-top: 0;
   }
-  h2 {
-    font-size: 2.8em;
-  }
   section .flow-text {
     font-size: 65%;
     text-align: justify;
   }
   .social {
     margin-bottom: 0;
-  }
-  .promo p, i {
-    font-size: 1.3em;
-    text-indent: 0;
-    margin-top: 5%;
-    text-align: center;
-    color: #176ABD;
-  }
-  .row i {
-    font-size: 5em;
   }
 }
 
@@ -215,28 +278,12 @@ textarea.materialize-textarea:focus:not([readonly])+label {
     margin-bottom: 0;
     margin-top: 0;
   }
-  h2 {
-    font-size: 2em;
-  }
-  h3 {
-    font-size: 1.8em;
-  }
   section .flow-text {
     font-size: 65%;
     text-align: justify;
   }
   .social {
     margin-bottom: 0;
-  }
-  .promo p, i {
-    font-size: 1.2em;
-    text-indent: 0;
-    margin-top: 5%;
-    text-align: center;
-    color: #176ABD;
-  }
-  .row i {
-    font-size: 4.5em;
   }
 }
 
@@ -247,13 +294,13 @@ textarea.materialize-textarea:focus:not([readonly])+label {
     margin-top: 0;
   }
   h2 {
-    font-size: 1.8em;
+    font-size: 2em;
   }
   h3 {
     font-size: 1.2em;
   }
   h4 {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
   section .flow-text {
     font-size: 50%;
@@ -265,15 +312,5 @@ textarea.materialize-textarea:focus:not([readonly])+label {
   }
   .social {
     margin-bottom: 0;
-  }
-  .promo p, i {
-    font-size: 1em;
-    text-indent: 0;
-    margin-top: 5%;
-    text-align: center;
-    color: #176ABD;
-  }
-  .row i {
-    font-size: 5em;
   }
 }
