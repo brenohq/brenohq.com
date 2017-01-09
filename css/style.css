@@ -51,9 +51,6 @@ valign-wrapper {
 #sobre .responsive-img {
   height: auto;
   float: left;
-  margin-right: 4%;
-  margin-bottom: 4%;
-  margin-top: 8%;
   position: relative;
 }
 
@@ -173,6 +170,14 @@ textarea.materialize-textarea:focus:not([readonly])+label {
   transform: translateY(-60%);
 }
 
+.texto {
+  padding: 0% 7% 0% 7% !important;
+}
+
+.texto p {
+  text-align: justify;
+  text-indent: 1em;
+}
 
 /*MEDIA QUERIES NOVAS*/
 
@@ -206,9 +211,6 @@ textarea.materialize-textarea:focus:not([readonly])+label {
     width: 100% !important;
     margin: 0;
   }
-  .texto {
-    padding: 40px !important;
-  }
   #contato {
     margin: 40px !important;
   }
@@ -233,10 +235,6 @@ textarea.materialize-textarea:focus:not([readonly])+label {
   .social {
     margin-bottom: 0;
   }
-  .texto p {
-    text-align: justify;
-    text-indent: 1em;
-  }
 }
 
 @media only screen and (max-device-width: 860px) {
@@ -251,9 +249,6 @@ textarea.materialize-textarea:focus:not([readonly])+label {
   }
   .social {
     margin-bottom: 0;
-  }
-  .midias {
-    display: none !important;
   }
 }
 
@@ -289,7 +284,7 @@ textarea.materialize-textarea:focus:not([readonly])+label {
 
 @media only screen and (max-device-width: 623px) {
   h1 {
-    font-size: 2em;
+    font-size: 2.5em;
     margin-bottom: 0;
     margin-top: 0;
   }
@@ -297,7 +292,7 @@ textarea.materialize-textarea:focus:not([readonly])+label {
     font-size: 2em;
   }
   h3 {
-    font-size: 1.2em;
+    font-size: 1em;
   }
   h4 {
     font-size: 1.2em;
