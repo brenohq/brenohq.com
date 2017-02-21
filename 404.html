@@ -2,14 +2,102 @@
 <html lang="en">
 
 <head>
-  <title></title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="css/style.css" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+
+  <title>Oops! - Erro 404</title>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+
+  <!-- Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Materialize CSS -->
+  <link rel="stylesheet" href="css/materialize.css" />
+  <!-- Folha de estilo -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Open Sans -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+  <!-- Jquery -->
+  <script src="js/jquery-1.12.3.js"></script>
+  <!-- Materialize JS -->
+  <script src="js/materialize.js"></script>
+
 </head>
 
 <body>
-  <img class="materialboxed responsive-img" src="img/404.gif">
+
+  <div class="navbar-fixed z-depth-1">
+    <nav>
+      <div class="nav-wrapper blue darken-2">
+        <a href="./index.html" class="brand-logo"><img src="img/logoTranspBranca685x150.png" alt="logomarca brenohq.com" /></a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+
+        <ul class="right hide-on-med-and-down" id="navbar">
+          <li><a href="http://brenohq.github.io" target="_blank"><i class="material-icons left icon-mobile">announcement</i>Blog</a></li>
+          <li data-menuanchor="sectionHome"><a href="./index.html#sectionHome" data-loc="home"><i class="material-icons left">airplay</i>Home</a></li>
+          <li data-menuanchor="sectionSobre"><a href="./index.html#sectionSobre" data-loc="sobre"><i class="material-icons left">person_pin</i>Sobre</a></li>
+          <li data-menuanchor="sectionPortfolio"><a href="./index.html#sectionPortfolio" data-loc="portfolio"><i class="material-icons left">done_all</i>Portfólio</a></li>
+          <li data-menuanchor="sectionContato"><a href="./index.html#sectionContato" data-loc="contato"><i class="material-icons left">email</i>Contato</a></li>
+        </ul>
+
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="http://brenohq.github.io" target="_blank"><i class="material-icons left icon-mobile">announcement</i>Blog</a></li>
+          <li data-menuanchor="sectionHome"><a href="./index.html#sectionHome" data-loc="home"><i class="azul material-icons left icon-mobile">airplay</i>Home</a></li>
+          <li data-menuanchor="sectionSobre"><a href="./index.html#sectionSobre" data-loc="sobre"><i class="azul material-icons left icon-mobile">person_pin</i>Sobre</a></li>
+          <li data-menuanchor="sectionPortfolio"><a href="./index.html#sectionPortfolio" data-loc="portfolio"><i class="azul material-icons left icon-mobile">done_all</i>Portfólio</a></li>
+          <li data-menuanchor="sectionContato"><a href="./index.html#sectionContato" data-loc="contato"><i class="azul material-icons left icon-mobile">email</i>Contato</a></li>
+        </ul>
+
+        <script type="text/javascript">
+          // Initialize collapse button
+          $('.button-collapse').sideNav({
+            menuWidth: 200, // Default is 240
+            closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+          });
+        </script>
+
+      </div>
+    </nav>
+  </div>
+
+  <div  class="container hide-on-med-and-up"
+        style=" position: relative;
+                top: 50%;
+                -webkit-transform: translateY(30%);
+                -ms-transform: translateY(30%);
+                transform: translateY(30%);">
+
+    <div class="row ">
+      <div class="col s12 m12 center">
+        <img class="responsive-img" src="img/404.gif">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s10 m10 offset-s1 offset-m1 center">
+        <h2>404 Not Found!</h2>
+      </div>
+    </div>
+
+  </div>
+
+  <div  class="container hide-on-small-only" 
+        style=" position: relative;
+                top: 50%;
+                -webkit-transform: translateY(30%);
+                -ms-transform: translateY(30%);
+                transform: translateY(30%);">
+
+    <div class="row valign-wrapper">
+      <div class="col s6 m6">
+        <img class="responsive-img" src="img/404.gif">
+      </div>
+      <div class="col s6 m6">
+        <h2>404 Not Found!</h2>
+      </div>
+    </div>
+
+  </div>
+
 </body>
 
 </html>
