@@ -116,6 +116,7 @@ textarea.materialize-textarea:focus:not([readonly])+label {
 .side-nav a {
   display: inline-block;
   color: #176ABD;
+  width: 100%;
 }
 
 .text-indent {
@@ -177,6 +178,10 @@ textarea.materialize-textarea:focus:not([readonly])+label {
 .texto p {
   text-align: justify;
   text-indent: 1em;
+}
+
+.brand-logo {
+  height: 100%;
 }
 
 /*MEDIA QUERIES NOVAS*/
