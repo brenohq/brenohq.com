@@ -184,6 +184,10 @@ textarea.materialize-textarea:focus:not([readonly])+label {
   height: 100%;
 }
 
+#contactForm {
+  -webkit-appearance: none;
+}
+
 /*MEDIA QUERIES NOVAS*/
 
 /*Smartphones (modo retrato e paisagem) */
