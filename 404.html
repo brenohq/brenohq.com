@@ -10,20 +10,33 @@
 
   <!-- Google Icon Font-->
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
   <!-- Materialize CSS -->
-  <link rel="stylesheet" href="css/materialize.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css" />
+
   <!-- Folha de estilo -->
   <link rel="stylesheet" href="css/style.css" />
+
   <!-- Open Sans -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+
   <!-- Jquery -->
-  <script src="js/jquery-1.12.3.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
   <!-- Materialize JS -->
-  <script src="js/materialize.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
 
 </head>
 
 <body>
+
+  <ul class="side-nav" id="mobile-demo">
+    <li><a href="http://brenohq.github.io" target="_blank"><i class="azul material-icons left icon-mobile">announcement</i>Blog</a></li>
+    <li data-menuanchor="sectionHome"><a href="./index.html#sectionHome" data-loc="home"><i class="azul material-icons left icon-mobile">airplay</i>Home</a></li>
+    <li data-menuanchor="sectionSobre"><a href="./index.html#sectionSobre" data-loc="sobre"><i class="azul material-icons left icon-mobile">person_pin</i>Sobre</a></li>
+    <li data-menuanchor="sectionPortfolio"><a href="./index.html#sectionPortfolio" data-loc="portfolio"><i class="azul material-icons left icon-mobile">done_all</i>Portfólio</a></li>
+    <li data-menuanchor="sectionContato"><a href="./index.html#sectionContato" data-loc="contato"><i class="azul material-icons left icon-mobile">email</i>Contato</a></li>
+  </ul>
 
   <div class="navbar-fixed z-depth-1">
     <nav>
@@ -39,14 +52,6 @@
           <li data-menuanchor="sectionContato"><a href="./index.html#sectionContato" data-loc="contato"><i class="material-icons left">email</i>Contato</a></li>
         </ul>
 
-        <ul class="side-nav" id="mobile-demo">
-          <li><a href="http://brenohq.github.io" target="_blank"><i class="material-icons left icon-mobile">announcement</i>Blog</a></li>
-          <li data-menuanchor="sectionHome"><a href="./index.html#sectionHome" data-loc="home"><i class="azul material-icons left icon-mobile">airplay</i>Home</a></li>
-          <li data-menuanchor="sectionSobre"><a href="./index.html#sectionSobre" data-loc="sobre"><i class="azul material-icons left icon-mobile">person_pin</i>Sobre</a></li>
-          <li data-menuanchor="sectionPortfolio"><a href="./index.html#sectionPortfolio" data-loc="portfolio"><i class="azul material-icons left icon-mobile">done_all</i>Portfólio</a></li>
-          <li data-menuanchor="sectionContato"><a href="./index.html#sectionContato" data-loc="contato"><i class="azul material-icons left icon-mobile">email</i>Contato</a></li>
-        </ul>
-
         <script type="text/javascript">
           // Initialize collapse button
           $('.button-collapse').sideNav({
@@ -59,8 +64,7 @@
     </nav>
   </div>
 
-  <div  class="container hide-on-med-and-up"
-        style=" position: relative;
+  <div class="container hide-on-med-and-up" style=" position: relative;
                 top: 50%;
                 -webkit-transform: translateY(30%);
                 -ms-transform: translateY(30%);
@@ -80,8 +84,7 @@
 
   </div>
 
-  <div  class="container hide-on-small-only" 
-        style=" position: relative;
+  <div class="container hide-on-small-only" style=" position: relative;
                 top: 50%;
                 -webkit-transform: translateY(30%);
                 -ms-transform: translateY(30%);
