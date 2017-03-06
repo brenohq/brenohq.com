@@ -5,8 +5,8 @@ RewriteCond %{HTTP_HOST} ^brenohq.com[nc]
 RewriteRule ^(.*)$ http://www.brenohq.com/$1 [r=301,nc]
 
 //Caching schema
-<FilesMatch "\.(.jpg|.png|.js|.css|.woff2|.ico|)$">
-Header set Cache-Control "max-age=3600"
+<FilesMatch "\.(jpg|png|js|css|woff2|ico)$">
+Header set Cache-Control "max-age=2764800"
 </FilesMatch>
 
 //Custom 404 errors
