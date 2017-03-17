@@ -1,0 +1,19 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*MEDIA QUERIES NOVAS*/
+
+/*Smartphones (modo retrato e paisagem) */
+
+/*Ipads (modo retrato e paisagem) */
+
+/* Desktops and laptops */
+
+/* Large screens */
+
+@media only screen and (min-width: 1824px) {
+  /* Styles */
+}
+
+/*MEDIA QUERIES ANTIGAS */

@@ -1,0 +1,36 @@
+{
+  "name": "brenohq",
+  "version": "0.0.7",
+  "description": "Meu site pessoal.",
+  "main": "index.html",
+  "scripts": {
+    "build": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brenohq/brenohq.com.git"
+  },
+  "keywords": [
+    "brenohq",
+    "portfolio",
+    "web-development"
+  ],
+  "author": "Breno Henrique de Lima Freitas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brenohq/brenohq.com/issues"
+  },
+  "homepage": "http://www.brenohq.com",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-size": "^2.1.0",
+    "gulp-sizereport": "^1.2.0",
+    "gulp-uncss": "^1.0.6",
+    "run-sequence": "^1.2.2"
+  }
+}
