@@ -51,12 +51,14 @@ gulp.task('sizereport', function() {
 
 var filesToMove = [
   './src/robots.txt',
-  './src/sitemap.xml'
+  './src/sitemap.xml',
 ];
 
 gulp.task('move', function() {
   gulp.src(filesToMove)
     .pipe(gulp.dest('dist'));
+  gulp.src('./src/mail/*')
+    .pipe(gulp.dest('./dist/mail'));
 });
 
 gulp.task('default', function(done) {
