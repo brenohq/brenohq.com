@@ -61,6 +61,14 @@ gulp.task('move', function() {
     .pipe(gulp.dest('./dist/mail'));
 });
 
+gulp.task('watch', function() {
+  gulp.watch(['src/js/rolagem.js', 'src/js/ityped.js', 'src/js/contact_me.js'], ['pack-js']);
+  gulp.watch(['src/css/style.css'], ['pack-css']);
+  gulp.watch(['src/img/**/*'], ['imagemin']);
+  gulp.watch(['src/index.html', 'src/404.html'], ['minify-html']);
+  gulp.watch(['dist/css/stylesheet.css'], ['remove-unused-css']);
+});
+
 gulp.task('default', function(done) {
   runSequence('pack-js', 'pack-css', 'imagemin', 'minify-html', 'remove-unused-css', 'move', 'sizereport', function() {
     done();
