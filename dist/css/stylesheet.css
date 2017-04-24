@@ -184,6 +184,10 @@ textarea.materialize-textarea:focus:not([readonly])+label {
   height: 100%;
 }
 
+.midias {
+  padding-top: 4%;
+}
+
 #contactForm {
   -webkit-appearance: none;
 }
@@ -204,10 +208,6 @@ textarea.materialize-textarea:focus:not([readonly])+label {
   .texto p {
     font-size: 1.5em;
   }
-  .midias {
-    width: 100% !important;
-    margin: 0;
-  }
 }
 
 /* Desktops and laptops */
@@ -215,10 +215,6 @@ textarea.materialize-textarea:focus:not([readonly])+label {
 @media only screen and (min-width: 1224px) {
   .texto p {
     font-size: 1.3em;
-  }
-  .midias {
-    width: 100% !important;
-    margin: 0;
   }
   #contato {
     margin: 40px !important;
