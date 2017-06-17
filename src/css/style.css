@@ -160,7 +160,7 @@ textarea.materialize-textarea:focus:not([readonly])+label {
 }
 
 .btnEnviar {
-  margin: 60px;
+  margin: 40px;
 }
 
 .vertical {
@@ -192,7 +192,9 @@ textarea.materialize-textarea:focus:not([readonly])+label {
   -webkit-appearance: none;
 }
 
+
 /*MEDIA QUERIES NOVAS*/
+
 
 /*Smartphones (modo retrato e paisagem) */
 
@@ -202,6 +204,7 @@ textarea.materialize-textarea:focus:not([readonly])+label {
   }
 }
 
+
 /*Ipads (modo retrato e paisagem) */
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -209,6 +212,7 @@ textarea.materialize-textarea:focus:not([readonly])+label {
     font-size: 1.5em;
   }
 }
+
 
 /* Desktops and laptops */
 
@@ -221,11 +225,13 @@ textarea.materialize-textarea:focus:not([readonly])+label {
   }
 }
 
+
 /* Large screens */
 
 @media only screen and (min-width: 1824px) {
   /* Styles */
 }
+
 
 /*MEDIA QUERIES ANTIGAS */
 
@@ -324,18 +330,20 @@ textarea.materialize-textarea:focus:not([readonly])+label {
   animation-direction: alternate;
 }
 
-@keyframes 
-blink {  100% {
- opacity: 0;
+@keyframes blink {
+  100% {
+    opacity: 0;
+  }
 }
+
+@-webkit-keyframes blink {
+  100% {
+    opacity: 0;
+  }
 }
- @-webkit-keyframes 
-blink {  100% {
- opacity: 0;
-}
-}
- @-moz-keyframes 
-blink {  100% {
- opacity: 0;
-}
+
+@-moz-keyframes blink {
+  100% {
+    opacity: 0;
+  }
 }
