@@ -6,3 +6,13 @@ $(document).ready(function () {
     fitToSection: true
   });
 });
+
+$(document).ready(function () {
+  $('.carousel').carousel({
+    duration: 300,
+    dist: -50,
+    shift: 50,
+    noWrap: true,
+    fullWidth: true
+  });
+});
