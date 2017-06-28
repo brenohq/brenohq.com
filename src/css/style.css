@@ -332,6 +332,7 @@ textarea.materialize-textarea:focus:not([readonly])+label {
 
 .carousel {
   max-height: 40vh;
+
 }
 
 @keyframes blink {
